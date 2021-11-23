@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+body{
+    background-color: #141414;
+}
+#p1{
+    color:red;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    margin-top: 20px;
+}
+#p1 a{
+    color: red;
+    text-decoration: none;
+}
+form{
+    padding-top: 20px;
+    margin-top: 40px;
+    margin-left: 730px;
+    width: 500px;
+    height: 620px !important;
+    border: 1px solid rgba(128, 128, 128, 0.411);
+    border-radius: 20px;
+}
+form p{
+    margin-left: 30px;
+    font-size: 20px;
+    color: white;
+}
+form .inputuri{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 440px;
+}
+form #confirmare{
+    margin-top: 25px;
+    color: grey;
+}
+form #Submit{
+    margin-left: 160px;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+form #Submit:hover{
+    background-color: red;
+    transition-duration: 0.5s;
+}
+#a2{
+    color: grey;
+}
+#a2:hover{
+    color: red;
+}
+#Aveti{
+    color: white;
+    margin-top: 80px;
+}
+@media only screen and (max-width: 376px){
+    form{
+       position: relative;
+       right: 685px;
+       width: 335px !important;
+       height: 500px;
+    }
+    form .inputuri{
+        width: 270px !important;
+    }
+    form a{
+        position: relative;
+        top: 130px;
+        left: 95px;
+    }
+    form #Submit{
+        position: absolute;
+        right: 100px;
+        top: 555px !important;
+        padding: 7px !important;
+    }
+    form p{
+        margin-left: 30px;
+        font-size: 15px !important;
+        color: white;
+    }    
+}
+@media only screen and (max-width: 416px){
+    form{
+        position: relative;
+        right: 710px;
+        width: 365px;
+        height: 650px !important;
+        padding: 10px;
+    }
+    
+    form .inputuri{
+         width: 300px;
+    }
+    form p{
+        margin-left: 30px;
+        font-size: 17px;
+        color: white;
+    }
+    form #Submit{
+        position: absolute;
+        right: 100px;
+        top: 570px;
+        padding: 10px;
+    }
+    #Aveti{
+        margin-top: 30px;
+    }    
+}

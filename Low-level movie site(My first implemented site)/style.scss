@@ -1,0 +1,654 @@
+*{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#navbar{
+    background-color: #0B0B0B;
+    width: 100%;
+    height: 70px;
+    z-index: 20;
+    position: fixed;
+    p{
+        font-size: 25px;
+        color: red;
+        position: absolute;
+        left: 40px;
+        top: 20px;
+        font-family: 'Dancing Script', cursive;
+        a{
+            text-decoration: none;
+            color: red;
+        }
+    }
+    ul{
+        position: absolute;
+        left: 300px;
+        top: 25px;
+        .l2{
+            position: relative;
+            left: 680px;
+        }
+        li:hover{
+            background-color: rgba(255, 255, 255, 0.212);
+        }
+        li{
+            color: white;
+            display: inline;
+            padding: 25px;
+            margin-right: 10px;
+            font-family: 'Varela Round', sans-serif;
+            a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+    #burger-menu{
+        position: absolute;
+        left: 500px;
+        top: 20px;
+        display: none;
+    }
+    input{
+        width: 350px;
+        height: 35px;
+        border-radius: 5px;
+        position: absolute;
+        left: 1220px;
+        top: 15px;
+        padding: 10px;
+        display: none;
+    }
+    i{
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        left: 1600px;
+        top: 20px;
+    }
+    button{
+        background-color: transparent;
+        color: white;
+        border: none;
+    }   
+    #PhoneMenu{
+        z-index: 21;
+        display: none;
+        li{
+            display: block;
+            padding: 7px;
+            border: solid 0.5px rgb(0, 0, 104);
+            background-color: black;
+            width: 150px;
+            font-size: 10px;
+        }
+    }
+}
+#div2{
+    width: 100%;
+    height: 1100px;
+    #img1{
+        width: 100%;
+        height: 100%;
+    }
+    #NumeFilm{
+        font-size: 100px;
+        font-family: 'Shadows Into Light', cursive;
+        color: yellow;
+        position: absolute;
+        bottom: 600px;
+        left: 100px;
+    }
+    #DescriereFilm{
+        font-size: 40px;
+        width: 600px;
+        font-family: 'Varela Round', sans-serif;
+        color: white;
+        position: absolute;
+        bottom: 300px;
+        left: 100px;
+    }
+    button{
+        padding: 20px 80px 20px 40px;
+        font-size: 30px;
+        border-radius: 5px;
+        border: none;
+        position: relative;
+        bottom: 430px;
+        left: 100px;
+    }
+    button:hover{
+        background-color: rgb(175, 174, 174);
+        transition-duration: 1s;
+    }
+}
+#div3{
+    background-color: #141414;
+    height: 3500px;
+    width: 100%;
+    #divIncadrareFilme1{
+        display: flex;
+        width: 100%;
+        height: 450px;
+        #ClasareFilme1{
+            color: white;
+            font-size: 40px;
+            font-family: 'Varela Round', sans-serif;
+            position: absolute;
+            left: 100px;
+        }
+    }
+    #divIncadrareFilme2{
+        display: flex;
+        width: 100%;
+        height: 450px;
+        #ClasareFilme2{
+        color: white;
+        font-size: 40px;
+        font-family: 'Varela Round', sans-serif;
+        position: absolute;
+        left: 100px;
+        }
+    }
+    #divIncadrareFilme3{
+        display: flex;
+        width: 100%;
+        height: 450px;
+        #ClasareFilme3{
+            color: white;
+            font-size: 40px;
+            font-family: 'Varela Round', sans-serif;
+            position: absolute;
+            left: 100px;
+        }
+    }
+    #divIncadrareFilme4{
+        display: flex;
+        width: 100%;
+        height: 450px;
+        #ClasareFilme4{
+            color: white;
+            font-size: 40px;
+            font-family: 'Varela Round', sans-serif;
+            position: absolute;
+            left: 100px;
+        }
+    }
+    #divIncadrareFilme5{
+        display: flex;
+        width: 100%;
+        height: 450px;
+        #ClasareFilme5{
+            color: white;
+            font-size: 40px;
+            font-family: 'Varela Round', sans-serif;
+            position: absolute;
+            left: 100px;
+        }
+    }
+    #divIncadrareSerialeTop{
+        width: 100%;
+        display: flex;
+        height: 900px;
+        h1{
+            color: white;
+            font-family: 'Varela Round', sans-serif;
+            position: absolute;
+            left: 600px;
+            top: 3400px;
+        }
+    }
+    #downNavbar{
+        width: 100%;
+        display: flex;
+        background-color: #0B0B0B;
+        height: 250px;
+        margin-top: 100px;
+        ul{
+            margin-left: 250px;
+            margin-top: 20px;
+            li{
+                color: white;
+                font-size: 20px;
+                padding: 4px;
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+                a:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+        p{
+            color: white;
+            float: left;
+            display: inline;
+            font-size: 20px;
+        }
+        #contact{
+            position: absolute;
+            top: 4550px;
+            left: 200px;
+        }
+        #facebook{
+            position: absolute;
+            top: 4550px;
+            left: 700px;
+        }
+        #insta{
+            position: absolute;
+            top: 4550px;
+            left: 1300px;
+        }
+    }
+}
+.divfilme{
+    width: 300px;
+    height: 350px;
+    margin-right: 5px;
+    margin-left: 64px;
+    margin-top: 60px;
+    display: inline !important;
+    img{
+        width: 100%;
+        height: 71.42%;
+        border-radius: 5px;
+    }
+    .divDescriere{
+        width: 100%;
+        height: 28.58%;
+        background-color: #0B0B0B;
+        margin-top: -10px;  
+        border-radius: 5px;  
+        p{
+            color: white;
+            font-size: 17px;
+            text-align: center;
+            margin-top: 5px;
+            font-family: 'Varela Round', sans-serif;
+        }
+        a{
+            color: white;
+            i{
+                font-size: 35px;
+                margin-right: 20px;
+                margin-left: 15px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+.divfilme:hover{
+    transform: scale(1.3,1.5);
+    z-index: 10;
+    transition-duration: 0.3s;  
+    transition-delay: 0.3s;  
+}
+.divseriale{
+    width: 300px;
+    height: 700px;
+    margin-top: 150px;
+    margin-left: 14px;
+    display: inline !important;
+    img{
+        width: 100%;
+        height: 85%;
+        border-radius: 5px;
+    }
+    div{
+        width: 100%;
+        height: 15%;
+        background-color: #0B0B0B;
+        margin-top: -10px;  
+        border-radius: 5px;  
+        p{
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            margin-top: 5px;
+            font-family: 'Varela Round', sans-serif;
+        }
+        a{
+            color: white;
+            i{
+                font-size: 35px;
+                margin-right: 20px;
+                margin-left: 15px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+.divseriale:hover{
+    transform: scale(1.1,1.1);
+    z-index: 10;
+    transition-duration: 0.3s;  
+    transition-delay: 0.3s;  
+}
+// Responsive pentru telefoane:
+
+@media only screen and (max-width: 376px){
+    #navbar{
+        width: 100%;
+        ul{
+            display: none;
+        }
+        #burger-menu{
+            display: inline;
+            position: absolute;
+            left: 320px !important;
+            top: 22px;
+        }
+        #PhoneMenu{
+            position: absolute;
+            left: 225px;
+            top: 70px;
+        }
+    }
+    #div2{
+        width: 100%;
+        height: 340px;
+        #NumeFilm{
+            font-size: 40px;
+            top: 70px;
+            width: 95% !important;
+        }
+        #DescriereFilm{
+            font-size: 20px;
+            width: 95% !important;
+            top: 170px;
+        }
+        button{
+            display: none;
+        }
+    }
+    #div3{
+        width: 100%;
+        height: 2057px;
+        #divIncadrareFilme1{
+            height: 240px;
+            #ClasareFilme1{
+                font-size: 25px;
+                margin-top: 15px;
+            }
+        }
+        #divIncadrareFilme2{
+            height: 240px;
+            #ClasareFilme2{
+                font-size: 25px;
+                margin-top: 15px;
+                margin-left: 45px;
+            }
+        }
+        #divIncadrareFilme3{
+            height: 240px;
+            #ClasareFilme3{
+                font-size: 25px;
+                margin-top: 15px;
+                margin-left: 45px;
+            }
+        }
+        #divIncadrareFilme4{
+            height: 240px;
+            #ClasareFilme4{
+                font-size: 25px;
+                margin-top: 15px;
+                margin-left: 38px;
+            }
+        }
+        #divIncadrareFilme5{
+            height: 240px;
+            #ClasareFilme5{
+                font-size: 25px;
+                margin-top: 15px;
+                margin-left: 45px;
+            }
+        }
+        #divIncadrareSerialeTop{
+            width: 100%;
+            height: 500px;
+            h1{
+                font-size: 25px;
+                position: absolute;
+                left: 10px;
+                top: 1570px;
+            }
+        }
+        #downNavbar{
+            height: 200px;
+            margin-top: 90px;
+            width: 100% !important;
+            ul{
+                margin-left: 13px;
+                margin-right: 0px;
+                li{
+                    font-size: 14px;
+                }
+            }
+            #contact{
+                position: absolute;
+                top: 170px;
+                left: 10px;
+                font-size: 10px;
+            }
+            #facebook{
+                position: absolute;
+                top: 170px;
+                left: 117px;
+                font-size: 10px;
+            }
+            #insta{
+                position: absolute;
+                top: 170px;
+                left: 247px;
+                font-size: 10px;
+            }
+        }
+    }
+    .divfilme{
+        width: 70px;
+        height: 150px;
+        margin-right: 0px;
+        margin-left: 4px !important;
+        .divDescriere{
+            height: 70px;
+            p{
+                font-size: 10px;
+                position: relative;
+                top: 10px;
+            }
+            a{
+                display: none;
+                i{
+                    display: none;
+                }
+            }
+        }
+    }
+    .divseriale{
+        width: 30px;
+        height: 350px;
+        margin-right: 0px;
+        margin-left: 2.2px;
+        div{
+            height: 70px;
+            p{
+                font-size: 13px;
+                position: relative;
+                top: 10px;
+            }
+            a{
+                display: none;
+                i{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 416px){
+    #navbar{
+        width: 100%;
+        ul{
+            display: none;
+        }
+        #burger-menu{
+            display: inline;
+            position: absolute;
+            left: 360px;
+            top: 22px;
+        }
+        #PhoneMenu{
+            position: absolute;
+            left: 260px;
+            top: 70px;
+        }
+    }
+    #div2{
+        width: 100%;
+        height: 340px;
+        #NumeFilm{
+            font-size: 40px;
+            position: absolute;
+            left: 20px;
+            top: 70px;
+            width: 375px;
+        }
+        #DescriereFilm{
+            font-size: 20px;
+            width: 375px;
+            position: absolute;
+            left: 20px;
+            top: 170px;
+        }
+        button{
+            display: none;
+        }
+    }
+    #div3{
+        width: 100%;
+        height: 1950px;
+        #divIncadrareFilme1{
+            height: 240px;
+            #ClasareFilme1{
+                font-size: 25px;
+                margin-top: 15px;
+            }
+        }
+        #divIncadrareFilme2{
+            height: 240px;
+            #ClasareFilme2{
+                font-size: 25px;
+                margin-top: 15px;
+                margin-left: 45px;
+            }
+        }
+        #divIncadrareFilme3{
+            height: 240px;
+            #ClasareFilme3{
+                font-size: 25px;
+                margin-top: 15px;
+                margin-left: 45px;
+            }
+        }
+        #divIncadrareFilme4{
+            height: 240px;
+            #ClasareFilme4{
+                font-size: 25px;
+                margin-top: 15px;
+                margin-left: 38px;
+            }
+        }
+        #divIncadrareFilme5{
+            height: 240px;
+            #ClasareFilme5{
+                font-size: 25px;
+                margin-top: 15px;
+                margin-left: 45px;
+            }
+        }
+        #divIncadrareSerialeTop{
+            width: 100%;
+            height: 500px;
+            h1{
+                font-size: 25px;
+                position: absolute;
+                left: 10px;
+                top: 1570px;
+            }
+        }
+        #downNavbar{
+            height: 200px;
+            position: absolute;
+            top: 2000px;
+            ul{
+                margin-left: 13px;
+                margin-right: 0px;
+                li{
+                    font-size: 14px;
+                }
+            }
+            #contact{
+                position: absolute;
+                top: 170px;
+                left: 10px;
+                font-size: 8px;
+            }
+            #facebook{
+                position: absolute;
+                top: 170px;
+                left: 117px;
+                font-size: 8px;
+            }
+            #insta{
+                position: absolute;
+                top: 170px;
+                left: 247px;
+                font-size: 8px;
+            }
+        }
+    }
+    .divfilme{
+        width: 70px;
+        height: 150px;
+        margin-right: 0px;
+        margin-left: 10px;
+        .divDescriere{
+            height: 70px;
+            p{
+                font-size: 10px;
+                position: relative;
+                top: 10px;
+            }
+            a{
+                display: none;
+                i{
+                    display: none;
+                }
+            }
+        }
+    }
+    .divseriale{
+        width: 80px;
+        height: 300px;
+        margin-right: 0px;
+        margin-left: 4px;
+        div{
+            height: 70px;
+            p{
+                font-size: 13px;
+                position: relative;
+                top: 10px;
+            }
+            a{
+                display: none;
+                i{
+                    display: none;
+                }
+            }
+        }
+    }
+}
